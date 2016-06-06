@@ -1,5 +1,5 @@
 body{
- 	padding-top: 52px;
+ 	padding-top: 50px;
 }
 
 #footer{
@@ -8,13 +8,26 @@ body{
 	min-height: 50px;
 	background: #000;
 	line-height: 50px;
-	position: fixed;
-	bottom:0px;
 }
 
 #footer-bottom{
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	line-height: 50px;
 	color: #fff;
+}
+
+.myCarousel{
+	background: #555;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.myCarousel-outer{
+	width: 100%;
+	background-color: #001;
+}
+
+.myColor{
+	background-color: #E6E6FA;
 }
