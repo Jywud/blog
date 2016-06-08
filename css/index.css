@@ -2,6 +2,10 @@ body{
  	padding-top: 50px;
 }
 
+#myBrand{
+	color: #fff;
+}
+
 #footer{
 	width: 100%;
 	height: 50px;
@@ -17,6 +21,7 @@ body{
 	color: #fff;
 }
 
+
 .myCarousel{
 	background: #555;
 	width: 70%;
@@ -25,7 +30,7 @@ body{
 
 .myCarousel-outer{
 	width: 100%;
-	background-color: #001;
+	background-color: #FFFAFA;
 }
 
 .myColor{
@@ -34,4 +39,18 @@ body{
 
 .main-contain{
 	background-color: #f9f9f9
+}
+
+#myPhoto{
+	transition: transform 1s;
+	width: 60%;
+}
+
+#myPhoto:hover{	
+
+	transform: scale(1.2,1.2;) rotate(360deg);
+	-ms-transform: scale(1.2,1.2) rotate(360deg);	/* IE 9 */
+	-webkit-transform: scale(1.2,1.2) rotate(360deg);	/* Safari 和 Chrome */
+	-o-transform: scale(1.2,1.2) rotate(360deg);	/* Opera */
+	-moz-transform: scale(1.2,1.2) rotate(360deg);	/* Firefox */
 }
