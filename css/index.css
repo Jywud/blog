@@ -15,7 +15,7 @@ body{
 }
 
 #footer-bottom{
-	width: 70%;
+	width: 700%;
 	margin: 0 auto;
 	line-height: 50px;
 	color: #fff;
@@ -23,7 +23,7 @@ body{
 
 
 .myCarousel{
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -31,6 +31,10 @@ body{
 	width: 100%;
 	background-color: #080808;
 }
+
+.myCarousel .carousel-inner img{
+	width: 100%;
+} 
 
 .myColor{
 	background-color: #E6E6FA;
